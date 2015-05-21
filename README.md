@@ -155,13 +155,13 @@ Ring 0 -3 switch , 30000 processes, Round Robin Scheduler, Background/Foreground
                     
     
 ```sh
-  Directory Structure 
+#####Directory Structure 
   
   .
 ├── LICENSE
 ├── Makefile
 ├── README.md
-├── bin
+├── bin -- The folder that contains all the binaries
 │   ├── cat
 │   │   └── cat.c
 │   ├── echo
@@ -182,16 +182,16 @@ Ring 0 -3 switch , 30000 processes, Round Robin Scheduler, Background/Foreground
 │       └── sleep.c
 ├── command
 ├── crt
-│   └── crt1.c
+│   └── crt1.c -- The start function which calls main() of the C program
 ├── dthakur.img
 ├── dthakur.tgz
 ├── dthakur.tgz.gpg
-├── include
+├── include - Header files
 │   ├── errno.h
 │   ├── stdarg.h
 │   ├── stdio.h
 │   ├── stdlib.h
-│   ├── sys
+│   ├── sys -- Kernel Header files
 │   │   ├── defs.h
 │   │   ├── elf.h
 │   │   ├── fork.h
@@ -213,16 +213,16 @@ Ring 0 -3 switch , 30000 processes, Round Robin Scheduler, Background/Foreground
 │   │   ├── timer.h
 │   │   └── util.h
 │   └── syscall.h
-├── libc
+├── libc -- User level libraries implementations.
 │   ├── printf.c
 │   └── stdlib_impl.c
 ├── linker.script
 ├── make_test.sh
-├── newfs
+├── newfs -
 │   └── newfs.c
 ├── qemu.sh
 ├── rootfs
-│   ├── bin
+│   ├── bin -- The folder where executable binaries after compiling /bin folder
 │   ├── boot
 │   │   ├── beastie.4th
 │   │   ├── boot
@@ -246,7 +246,7 @@ Ring 0 -3 switch , 30000 processes, Round Robin Scheduler, Background/Foreground
 │   └── mnt
 │       ├── sample.sh
 │       └── sample.txt
-├── sys
+├── sys - Implementation of kernel header files
 │   ├── dir.c
 │   ├── file.c
 │   ├── fork.c
