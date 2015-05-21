@@ -22,7 +22,7 @@
 
 **********************************************************************************************************
 ```sh               
-Supported commands are : cd, cd .., ls, cat, echo, sleep, ps, sbush, pwd, vi, kill -9, SETENV, SET PS1. 
+Supported commands are : cd, cd .., ls, cat, echo, sleep, ps, sbush, pwd, vi, kill -9, SETENV, SET PS1, pipe (|)  
 ```
 ```sh               
 Supported OS features are : COW , Auto Growing Stack , SEGV handling, 
