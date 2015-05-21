@@ -154,8 +154,126 @@ Ring 0 -3 switch , 30000 processes, Round Robin Scheduler, Background/Foreground
 
                     
     
-
+```sh
+  Directory Structure 
   
+  .
+├── LICENSE
+├── Makefile
+├── README.md
+├── bin
+│   ├── cat
+│   │   └── cat.c
+│   ├── echo
+│   │   └── echo.c
+│   ├── init_process
+│   │   └── init_process.c
+│   ├── kill
+│   │   └── kill.c
+│   ├── ls
+│   │   └── ls.c
+│   ├── ps
+│   │   └── ps.c
+│   ├── pwd
+│   │   └── pwd.c
+│   ├── sbush
+│   │   └── sbush.c
+│   └── sleep
+│       └── sleep.c
+├── command
+├── crt
+│   └── crt1.c
+├── dthakur.img
+├── dthakur.tgz
+├── dthakur.tgz.gpg
+├── include
+│   ├── errno.h
+│   ├── stdarg.h
+│   ├── stdio.h
+│   ├── stdlib.h
+│   ├── sys
+│   │   ├── defs.h
+│   │   ├── elf.h
+│   │   ├── fork.h
+│   │   ├── gdt.h
+│   │   ├── idt.h
+│   │   ├── isr.h
+│   │   ├── keyboard.h
+│   │   ├── kmalloc.h
+│   │   ├── mmap.h
+│   │   ├── paging.h
+│   │   ├── pipe.h
+│   │   ├── pmap.h
+│   │   ├── port.h
+│   │   ├── process.h
+│   │   ├── sbunix.h
+│   │   ├── schedule.h
+│   │   ├── syscall.h
+│   │   ├── tarfs.h
+│   │   ├── timer.h
+│   │   └── util.h
+│   └── syscall.h
+├── libc
+│   ├── printf.c
+│   └── stdlib_impl.c
+├── linker.script
+├── make_test.sh
+├── newfs
+│   └── newfs.c
+├── qemu.sh
+├── rootfs
+│   ├── bin
+│   ├── boot
+│   │   ├── beastie.4th
+│   │   ├── boot
+│   │   ├── boot0
+│   │   ├── boot1
+│   │   ├── boot2
+│   │   ├── cdboot
+│   │   ├── defaults
+│   │   │   └── loader.conf
+│   │   ├── gptboot
+│   │   ├── kernel
+│   │   ├── loader
+│   │   ├── loader.4th
+│   │   ├── loader.conf
+│   │   ├── loader.rc
+│   │   ├── mbr
+│   │   ├── pxeboot
+│   │   ├── screen.4th
+│   │   └── support.4th
+│   ├── lib
+│   └── mnt
+│       ├── sample.sh
+│       └── sample.txt
+├── sys
+│   ├── dir.c
+│   ├── file.c
+│   ├── fork.c
+│   ├── gdt.c
+│   ├── gdt.s
+│   ├── idt.c
+│   ├── idt.s
+│   ├── isr.c
+│   ├── isr.s
+│   ├── keyboard.c
+│   ├── kmalloc.c
+│   ├── main.c
+│   ├── paging.c
+│   ├── pipe.c
+│   ├── pmap.c
+│   ├── port.c
+│   ├── printf.c
+│   ├── process.c
+│   ├── process.s
+│   ├── putchar.c
+│   ├── schedule.c
+│   ├── tarfs.c
+│   ├── timer.c
+│   └── util.c
+└── temp
+    └── dthakur=2015-05-09=02:02:57.tgz.gpg
+ ``` 
     
     
 
