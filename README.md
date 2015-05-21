@@ -22,7 +22,7 @@
 
 **********************************************************************************************************
 ```sh               
-Supported commands are : cd, cd .., ls, cat, echo, sleep, ps, sbush, pwd, vi, kill -9.
+Supported commands are : cd, cd .., ls, cat, echo, sleep, ps, sbush, pwd, vi, kill -9, SETENV, SET PS1. 
 ```
 ```sh               
 Supported OS features are : COW , Auto Growing Stack , SEGV handling, 
@@ -72,8 +72,8 @@ Ring 0 -3 switch , 30000 processes, Round Robin Scheduler
     return       :  It returns the pid for parent process or zero to child 
 
     
-    Name         :  EXECVPE()
-    Syntax       :  execvpe(char *file, char *argv[], char *envp[])
+    Name         :  EXECVE()
+    Syntax       :  execpe(char *file, char *argv[], char *envp[])
     Description  :  This system call executes a file along with any necessary arguments argv[] in the 
                     environment envp[].
     return       :  In case of failure, it returns a value of -1 while in the case of success it does not 
