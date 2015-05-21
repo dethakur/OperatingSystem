@@ -5,11 +5,11 @@
 
 
 
-		           P R O J E C T    F E A T U R E S  :  Preemptive OS 
+		           		P R O J E C T    F E A T U R E S  :  Preemptive OS 
 
-                   P R O J E C T    P O I N T S      :  7 0
+                            	P R O J E C T    P O I N T S      :  7 0
                    
-                   TEAM MEMBERS - DEVASHISH THAKUR AND PARIKSHIT BHATTACHARJEE
+                   		TEAM MEMBERS - DEVASHISH THAKUR AND PARIKSHIT BHATTACHARJEE
                    
 
 				
@@ -22,11 +22,11 @@
 
 **********************************************************************************************************
 ```sh               
-Supported commands are : cd, cd .., ls, cat, shutdown, echo, sleep, ps, sh, 
-man, pwd, vi, kill -9.
+Supported commands are : cd, cd .., ls, cat, echo, sleep, ps, sbush, pwd, vi, kill -9.
 ```
 ```sh               
-Supported OS features are are : COW , Auto Growing Stack , SEGV handling, Ring 0 -3 transistions , 30000 processes, Round Robin Scheduler
+Supported OS features are : COW , Auto Growing Stack , SEGV handling, 
+Ring 0 -3 switch , 30000 processes, Round Robin Scheduler
 ```
 
 **********************************************************************************************************
