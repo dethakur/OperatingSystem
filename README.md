@@ -25,7 +25,7 @@
 Supported commands are : cd, cd .., ls, cat, echo, sleep, ps, sbush, pwd, vi, kill -9.
 ```
 ```sh               
-Supported OS features are are : COW , Auto Growing Stack , SEGV handling, 
+Supported OS features are : COW , Auto Growing Stack , SEGV handling, 
 Ring 0 -3 switch , 30000 processes, Round Robin Scheduler
 ```
 
