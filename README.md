@@ -5,11 +5,11 @@
 
 
 
-		           P R O J E C T    F E A T U R E S  :  Preemptive OS 
+		           		P R O J E C T    F E A T U R E S  :  Preemptive OS 
 
-                   P R O J E C T    P O I N T S      :  7 0
+                            		P R O J E C T    P O I N T S      :  7 0
                    
-                   TEAM MEMBERS - DEVASHISH THAKUR AND PARIKSHIT BHATTACHARJEE
+                   		TEAM MEMBERS - DEVASHISH THAKUR AND PARIKSHIT BHATTACHARJEE
                    
 
 				
